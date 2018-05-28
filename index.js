@@ -14,7 +14,7 @@ function renderResult(result) {
     console.log(result);
   return `
     <div>
-    <a href="youtube.com/watch?v=${result.id.videoId}" target= '_blank'><input type="image" src="${result.snippet.thumbnails.medium.url}"></a>
+    <a href="https://www.youtube.com/watch?v=${result.id.videoId}" target= '_blank'><input type="image" src="${result.snippet.thumbnails.medium.url}"></a>
     </div>
   `;
 }
